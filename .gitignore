@@ -12,5 +12,4 @@ build/
 .zed/
 
 # Ignore generated output
-out/
-dag.png
+app/out/

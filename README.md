@@ -8,14 +8,14 @@ Visualizes CS and Math course prerequisites as a directed acyclic graph (DAG).
 ./gradlew run
 ```
 
-This generates `out/course-map.dot`.
+This generates `app/out/course-map.dot`.
 
 ## Viewing the output
 
 Install [Graphviz](https://graphviz.org/download/), then run:
 
 ```bash
-dot -Tpng out/course-map.dot -o out/course-map.png
+dot -Tpng app/out/course-map.dot -o app/out/dag.png
 ```
 
 ## Color key
